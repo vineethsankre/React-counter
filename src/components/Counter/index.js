@@ -15,7 +15,7 @@ class Counter extends Component {
     return (
       <div className="container">
         <h1 className="heading">Counter</h1>
-        <p className="count">0</p>
+        <p className="count">{count}</p>
         <div>
           <button className="button" onClick={this.onIncrement}>
             Increment
